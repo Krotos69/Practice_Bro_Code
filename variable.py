@@ -3,7 +3,15 @@
 # variable = A container for value (string, integer, float, boolean)
 #            A variable behaves as if it was the value it contains
 
-first_name =  "Bro"
+# this area String variables
+first_name =  "Bro" # variable assignment (stores the value "Bro" in the variable first_name)
 # print(first_name)
-print(f"Hello {first_name}") # f-string (formatted string literal)
-print("hello " + first_name) # concatenation
+
+food = "Pizza" # variable assignment (stores the value "Pizza" in the variable food)
+email = "Bro123@fake.com" # variable assignment (stores the value "Bro123@fake.com" in the variable email)
+
+#print(f"Hello {first_name}") # f-string (formatted string literal)
+#print("hello " + first_name) # concatenation
+print("Hello", first_name) # comma (adds a space between the string and the variable
+print(f"You like {food}") # f-string (formatted string literal)
+print(f"Your email is: {email}") # f-string (formatted string literal) (allows you to embed expressions inside string literals, using curly braces {})
