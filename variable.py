@@ -4,6 +4,5 @@
 #            A variable behaves as if it was the value it contains
 
 first_name =  "Bro"
-last_name = "code"
-
-print(first_name)
+# print(first_name)
+print(f"Hello {first_name}") # f-string (formatted string literal)
