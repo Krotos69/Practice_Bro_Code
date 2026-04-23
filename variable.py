@@ -35,7 +35,26 @@ price = 10.99 # variable assignment (stores the value 10.99 in the variable pric
 gpa = 3.2 # variable assignment (stores the value 3.2 in the variable gpa)
 distance = 5.5 # variable assignment (stores the value 5.5 in the variable distance)
 
-print(f"The price is ${price}") # f-string (formatted string literal) (allows you to embed expressions inside string literals, using curly braces {})
-print(f"Your gpa is {gpa}") # f-string (formatted string literal) (allows you to embed expressions inside string literals, using curly braces {})
-print(f"You ran {distance} miles") # f-string (formatted string literal) (allows you to embed expressions inside string literals, using curly braces {})
+#print(f"The price is ${price}") # f-string (formatted string literal) (allows you to embed expressions inside string literals, using curly braces {})
+#print(f"Your gpa is {gpa}") # f-string (formatted string literal) (allows you to embed expressions inside string literals, using curly braces {})
+#print(f"You ran {distance} miles") # f-string (formatted string literal) (allows you to embed expressions inside string literals, using curly braces {})
 
+
+#Boolean variables
+# True or False values
+
+#is_student = False # variable assignment (stores the value True in the variable is_student)
+
+#print(f"Are you a student?: {is_student}") # f-string (formatted string literal) (allows you to embed expressions inside string literals, using curly braces {})
+
+#if is_student: # if statement (checks if the value of is_student is True)
+	#print("You are a student") # prints "You are a student" if the condition is True
+#else: # else statement (executes if the condition in the if statement is False)
+    #print("You are NOT a student") # prints "You are NOT a student" if the condition is False
+
+for_sale = True # variable assignment (stores the value True in the variable for_sale)
+
+if for_sale: # if statement (checks if the value of for_sale is True)
+    print("The item is for sale") # prints "The item is for sale" if the condition is True
+else:
+    print("The item is NOT available") # prints "The item is NOT available" if the condition is False
