@@ -6,3 +6,4 @@
 first_name =  "Bro"
 # print(first_name)
 print(f"Hello {first_name}") # f-string (formatted string literal)
+print("hello " + first_name) # concatenation
